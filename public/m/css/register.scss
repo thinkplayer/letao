@@ -1,0 +1,30 @@
+
+.my-content-register {
+    .mui-input-row {
+        font-size: 14px;
+        
+    }
+    .registerBtn,.loginBtn {
+        line-height: 38px;
+        background-color: #066099;
+        width: 94%;
+        margin: 20px auto;
+        text-align: center;
+        color: #FFF;
+        font-size: 16px;
+    }
+    .loginNow,.registerFree {
+        float: right;
+        margin-right: 10px;
+        font-size: 14px;
+        color: #1472a1;
+    }
+    .getVcode {
+        position: absolute;
+        top: 50%;
+        right: 10px;
+        transform: translateY(-50%);
+        font-size: 14px;
+        color: #1472a1;
+    }
+}

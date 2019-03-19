@@ -1,0 +1,74 @@
+.mui-slider-item img {
+    vertical-align: top;
+}
+.product-title {
+    padding: 10px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+
+}
+.product-price {
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+    span {
+        font-size: 14px;
+
+    }
+    .price-new {
+        font-size: 24px;
+        color: orange;
+        padding: 0 5px;
+    }
+    .price-old {
+        text-decoration: line-through;
+        color: #ccc;
+    }
+}
+.product-size {
+    padding: 10px;
+    line-height: 28px;
+    border-bottom: 1px solid #ccc;
+    span {
+        display: inline-block;
+        height: 28px;
+        width: 28px;
+        border: 1px solid #ccc;
+        text-align: center;
+        font-size: 14px;
+        margin: 5px;
+    }
+}
+.product-num {
+    line-height: 28px;
+    font-size: 14px;
+    padding: 10px;
+    .mui-numbox {
+        height: 28px;
+        margin: 0 3px;
+    }
+}
+.car-btns {
+    padding: 10px;
+    a,span {
+        float: left;
+        width: 50%;
+        text-align: center;
+        color: #FFF;
+        line-height: 35px;
+        font-size: 14px;
+    }
+    a {
+        background-color: #f9672c;
+    }
+    span {
+        background-color: #9a1020;
+    }
+}
+.my-content {
+    margin-bottom: 20px;
+}
+#detailBox {
+    .active {
+        background-color: #f9672c;
+    }
+}
